@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daily_frequency">
+        <item>1 Vez ao Dia</item>
+        <item>A cada 2 Horas</item>
+        <item>A cada 4 Horas</item>
+        <item>A cada 6 Horas</item>
+        <item>A cada 8 Horas</item>
+        <item>A cada 12 Horas</item>
+    </string-array>
+</resources>

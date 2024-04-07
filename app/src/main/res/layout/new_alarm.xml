@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewNameMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newAlarmTextViewNameMedication"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextNameMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/newAlarmEditTextNameMedication"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textViewHourMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newAlarmTextViewHourMedication"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TimePicker
+            android:id="@+id/timerPickerMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner" />
+
+        <TextView
+            android:id="@+id/textViewDaysOfWeekMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newAlarmTextViewDaysOfWeekMedication"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <ca.antonious.materialdaypicker.MaterialDayPicker
+            android:id="@+id/day_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ca.antonious.materialdaypicker.MaterialDayPicker>
+
+        <TextView
+            android:id="@+id/textViewPosologyMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newAlarmTextViewPosologyMedication"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spinnerDailyFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDosageMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newAlarmTextViewDosageMedication"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDosageMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/newAlarmEditTextDosageMedication"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textViewInventoryMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newAlarmTextViewInventoryMedication"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextInventoryMedication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/newAlarmEditTextInventoryMedication"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/buttonSaveNewAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSaveNewAlarm" />
+        </TableRow>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

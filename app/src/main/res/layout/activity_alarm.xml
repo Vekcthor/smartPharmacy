@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewDosageMedicationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="48sp"
+        tools:text="Parecetamol" />
+
+    <TextView
+        android:id="@+id/textViewDosageMedicationAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:text="Tomar 1 dose" />
+
+    <ImageView
+        android:id="@+id/activity_ring_clock"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDosageMedicationName"
+        app:srcCompat="@drawable/ic_alarm_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_ring_dismiss"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/buttonDismissAlarm"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/activity_ring_snooze" />
+
+        <Button
+            android:id="@+id/activity_ring_snooze"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/buttonSnoozeAlarm"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/activity_ring_clock" />
+    </LinearLayout>
+
+</LinearLayout>

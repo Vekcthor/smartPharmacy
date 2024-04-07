@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Pharmacy</string>
+    <string name="newAlarmTextViewNameMedication">Digite nome do medicamento</string>
+    <string name="newAlarmEditTextNameMedication">Nome do medicamento</string>
+    <string name="newAlarmTextViewHourMedication">Selecione a hora da primeira dose do medicamento</string>
+    <string name="newAlarmEditTextHourMedication">00:00</string>
+    <string name="newAlarmTextViewDaysOfWeekMedication">Selecione a recorrência semanal</string>
+    <string name="newAlarmTextViewPosologyMedication">Selecione frequencia</string>
+    <string name="newAlarmTextViewDosageMedication">Digite a dose do medicamento</string>
+    <string name="newAlarmEditTextDosageMedication">0</string>
+    <string name="newAlarmTextViewInventoryMedication">Digite o estoque do medicamento</string>
+    <string name="newAlarmEditTextInventoryMedication">0</string>
+    <string name="buttonSaveNewAlarm">Salvar</string>
+    <string name="buttonAddNewAlarm">Adicionar Medicamento</string>
+    <string name="buttonSnoozeAlarm">Adiar</string>
+    <string name="buttonDismissAlarm">Tomar</string>
+    <string name="mainActivityTitle">Meus Medicamentos</string>
+</resources>
